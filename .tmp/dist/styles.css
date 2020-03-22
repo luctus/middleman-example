@@ -1,3 +1,7 @@
+.about-box {
+  background-color: #faf089;
+}
+
 @tailwind "tailwind/base";
 
 @tailwind "tailwind/components";
@@ -8,16 +12,4 @@ body {
   background-color: #f56565;
 }
 
-a {
-  color: rgba(#000, 0.7);
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
-  }
-}
-
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
-}
 

@@ -1,3 +1,5 @@
+@import "/about.css";
+
 @tailwind "tailwind/base";
 @tailwind "tailwind/components";
 @tailwind "tailwind/utilities";
@@ -6,16 +8,3 @@ body {
   @apply bg-red-500;
 }
 
-a {
-  color: rgba(#000, 0.7);
-
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
-  }
-}
-
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
-}
