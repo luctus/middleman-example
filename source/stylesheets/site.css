@@ -1,10 +1,7 @@
+@import "/base.css";
 @import "/about.css";
+
 
 @tailwind "tailwind/base";
 @tailwind "tailwind/components";
 @tailwind "tailwind/utilities";
-
-body {
-  @apply bg-red-500;
-}
-

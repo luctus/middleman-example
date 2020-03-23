@@ -1,3 +1,7 @@
+body {
+  background-color: #fff;
+}
+
 .about-box {
   background-color: #faf089;
 }
@@ -7,9 +11,3 @@
 @tailwind "tailwind/components";
 
 @tailwind "tailwind/utilities";
-
-body {
-  background-color: #f56565;
-}
-
-
