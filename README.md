@@ -8,6 +8,8 @@ I'm trying to build a working project using the following technologies (based on
 2) [Tailwind CSS](https://tailwindcss.com/): A very cool CSS framework
 3) [Webpack](https://webpack.js.org/): A very common assets bundler
 
+I used [this template](https://tailwindcomponents.com/component/application-header-with-clip-path) for this example, from tailwindcomponents.com 
+
 ## Developement
 
 ```
