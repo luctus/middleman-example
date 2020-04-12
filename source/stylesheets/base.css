@@ -2,24 +2,29 @@ body {
   @apply bg-white;
 }
 
-#main-menu {
-  @apply flex items-center justify-between flex-wrap bg-teal-500 p-6;
+h2 {
+  @apply text-3xl font-semibold text-gray-800;
 }
-#main-menu #logo {
-  @apply flex items-center flex-shrink-0 text-white mr-6;
+.btn-on-hover{
+  @apply text-gray-800 rounded py-2 px-2;
 }
-#main-menu button {
-  @apply flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400;
+.btn-on-hover:hover {
+  @apply bg-gray-900 text-gray-100;
 }
-#main-menu button:hover {
-  @apply text-white border-white;
+
+.btn{
+  @apply  mr-4 px-4 py-3 bg-gray-900 text-gray-200 text-xs font-semibold rounded;
 }
-#navbar {
-  @apply w-full block flex-grow lg:flex lg:items-center lg:w-auto;
+.btn:hover{
+  @apply bg-gray-800;
 }
-#navbar a{
-  @apply block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white;
+
+.btn-secondary {
+  @apply  mr-4 px-4 py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded;
 }
-#cta a{
-  @apply inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0;
+.btn-secondary:hover {
+  @apply bg-gray-400;
+}
+p {
+  @apply mt-2 text-sm text-gray-500;
 }
